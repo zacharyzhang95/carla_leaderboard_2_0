@@ -14,6 +14,8 @@
         "carla_camera",
         "carla_camera",
         "carla_camera",
+        "carla_camera",
+        "carla_camera",
         "carla_imu",
         "carla_gnss",
         "carla_speedometer"

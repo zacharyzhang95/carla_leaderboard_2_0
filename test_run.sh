@@ -20,12 +20,14 @@ export REPETITIONS=1
 export DEBUG_CHALLENGE=1
 
 # (Python module) — Path to the agent’s Python module.
-export TEAM_AGENT=/home/zc/ST-P3/carla_agent.py
+# export TEAM_AGENT=/home/zc/ST-P3/carla_agent.py
+export TEAM_AGENT=/home/zc/ST-P3/carla_agent_6_camera.py
 # export TEAM_AGENT=${LEADERBOARD_ROOT}/leaderboard/autoagents/human_agent.py
 # export TEAM_AGENT=${LEADERBOARD_ROOT}/leaderboard/autoagents/test_agent.py
 
 # (defined by the user) — Path to an arbitrary configuration file read by the provided agent (model .ckpt file).
 export TEAM_CONFIG=/home/zc/ST-P3/models/carla.ckpt
+# export TEAM_CONFIG=/home/zc/ST-P3/models/STP3_plan.ckpt
 
 # (JSON) — The name of a file where the Leaderboad metrics will be recorded.
 export CHECKPOINT_ENDPOINT=${LEADERBOARD_ROOT}/results.json

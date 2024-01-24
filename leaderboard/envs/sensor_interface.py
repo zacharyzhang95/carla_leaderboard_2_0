@@ -199,7 +199,8 @@ class SensorInterface(object):
     def __init__(self):
         self._sensors_objects = {}
         self._data_buffers = Queue()
-        self._queue_timeout = 10
+        # self._queue_timeout = 10
+        self._queue_timeout = 50
 
         # Only sensor that doesn't get the data on tick, needs special treatment
         self._opendrive_tag = None
